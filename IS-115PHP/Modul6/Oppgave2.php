@@ -1,18 +1,18 @@
 <?php
 
-
+//Her lager jeg en klasse som heter bruker med de attributene som måtte være med
 class Bruker
 {
     public $fornavn;
     public $etternavn;
     public $brukernavn;
     public $registreringsdato;
-
+// Her lager jeg en function som printer ut fornavet og etternavnet
 function BrukerFornavn() 
 {
     echo $this->fornavn ." ". $this->etternavn;
 }
-
+//Her lager jeg en function som finner registreringsdatoen som har blitt definert
 function FinnRegistreringsDato() 
 {
     $this->registreringsdato;
